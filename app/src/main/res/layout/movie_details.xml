@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul_film"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Judul Film"
+            android:textAlignment="center"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/status_nonton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Status: Complete"
+            android:textAlignment="textStart"
+            >
+        </TextView>
+
+        <RatingBar
+            android:id="@+id/rating_film"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:rating="2.0"
+            >
+        </RatingBar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Review"
+            android:layout_marginLeft="25dp"></TextView>
+
+        <EditText
+            android:id="@+id/isi_review"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"></EditText>
+
+    </LinearLayout>
