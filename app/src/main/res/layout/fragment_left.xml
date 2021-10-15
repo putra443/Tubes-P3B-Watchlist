@@ -22,14 +22,14 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             android:textColor="@color/black"
-            android:text="Page2"/>
+            android:text="Daftar"/>
         <Button
             android:id="@+id/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             android:textColor="@color/black"
-            android:text="Exit"/>
+            android:text="History"/>
     </LinearLayout>
 
 </FrameLayout>
